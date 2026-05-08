@@ -1,0 +1,224 @@
+# =====================
+# PYTHON / IA
+# =====================
+
+# Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / paquets
+*.egg
+*.egg-info/
+dist/
+build/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+.venv/
+.env/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Notebooks Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Modèles IA (fichiers lourds)
+*.pkl
+*.h5
+*.pb
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.joblib
+
+# Data & datasets
+data/
+datasets/
+*.csv
+*.xlsx
+*.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs & résultats
+logs/
+results/
+outputs/
+figures/
+*.log
+
+# Tests Python
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# =====================
+# NODE.JS / EXPRESS / REACT
+# =====================
+
+# Dépendances
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Builds
+dist/
+build/
+out/
+.next/
+.vercel/
+.netlify/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# =====================
+# ENVIRONNEMENT & CONFIGS
+# =====================
+
+# Variables d'environnement
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Fichiers de config personnels
+config.local.js
+config.local.py
+.local-config
+
+# Clés & secrets
+*.pem
+*.key
+*.crt
+*.p12
+.secrets/
+secrets/
+
+# =====================
+# ÉDITEURS & OS
+# =====================
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# IntelliJ / PyCharm / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-*
+.sublime/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =====================
+# TEMPORAIRES & LOGS
+# =====================
+
+# Temporaires
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# =====================
+# TESTS & COUVERTURE
+# =====================
+
+.nyc_output/
+coverage/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.hypothesis/
+
+# =====================
+# DOCKER
+# =====================
+*.dockerignore
+.docker/
+docker-compose.override.yml
+
+# =====================
+# ARCHIVES
+# =====================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# =====================
+# SPÉCIFIQUE PROJET
+# =====================
+
+# Uploads temporaires
+uploads/
+temp_uploads/
+files/
+
+# Bases de données locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Rapports générés
+*.pdf
+*.html
+reports/
